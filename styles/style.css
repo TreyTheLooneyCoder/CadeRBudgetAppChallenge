@@ -1,0 +1,98 @@
+body{
+    background-color: #232432;
+    color: #ffffff;
+}
+
+.input-and-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/* main budget*/
+.budget-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.your-budget {
+
+}
+
+.budget-input {
+    border-radius: 0.5rem;
+
+    width: 20rem;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 0.5rem;
+}
+
+.budget-btn {
+    background-color: #232432;
+    border: solid #ffffff, 2px;
+    border-radius: 0.5rem;
+
+    width: 8rem;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-btn:hover {
+    background-color: #9ba0a4;
+}
+
+/* expenses */
+.expense-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.expenses {
+
+}
+
+.input-and-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.expense-input {
+    border-radius: 0.5rem;
+
+    width: 20rem;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 0.5rem;
+}
+
+.expense-btn {
+    background-color: #232432;
+    border: solid #ffffff, 2px;
+    border-radius: 0.5rem;
+
+    width: 8rem;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expense-btn:hover {
+    background-color: #9ba0a4;
+}
